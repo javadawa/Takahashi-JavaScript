@@ -20,10 +20,10 @@ document.write(
     ")<br>"
 );
 
+// <h1 onclick="greet()">Welcome!</h1>
 const greet = function () {
     window.alert("ようこそJavaScriptの世界へ！");
 };
-// greet();
 
 // サイコロの目をランダムに取得する
 let dice = parseInt(Math.random() * 6 + 1);
@@ -33,5 +33,5 @@ let businessHours = today.getHours();
 if (businessHours >= 9 && businessHours < 17) {
     document.write('営業中です！');
 } else {
-    document.write('準備中です。');
+    document.write('本日の営業は終了しました。');
 }
