@@ -1,0 +1,16 @@
+body {
+  background-color: darkolivegreen;
+  font-family: serif;
+  color: bisque;
+  font-size: 2em;
+}
+#on {
+  background-color: coral;
+  color: white;
+  font-family: serif;
+}
+#off {
+  background-color: darkolivegreen;
+  color: bisque;
+  font-family: serif;
+}
