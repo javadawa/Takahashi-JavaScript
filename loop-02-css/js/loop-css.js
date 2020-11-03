@@ -28,9 +28,9 @@ document.write("<br>");
 // document.write('</table>');
 
 document.write('<table>');
-for (let i = 1; i <= 5; i++) {
+for (let i = 1; i <= 3; i++) {
   document.write('<tr>');
-  for (let j = 1; j <= 5; j++) {
+  for (let j = 1; j <= 3; j++) {
     if ((i % 2 === 1 && j % 2 === 1) || (i % 2 ===0 && j % 2 === 0)) {
         document.write('<td id="on">' + i * j + '</td>')
     } else {
